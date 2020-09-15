@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SFDC-Chrome Testing suite" parallel="none">
+
+	<test name="SFDC-Chrome test">
+		<parameter name="browserName" value="chrome" />
+
+		<classes>
+			<class name="sfdc.testcases.SFDC_Test_Base" />
+			<class name="sfdc.reusable_code.Select_Browser" />			
+			<class name="sfdc.testcases.SFDC_TC_01" />
+			<class name="sfdc.testcases.SFDC_TC_02" />  
+			<class name="sfdc.testcases.SFDC_TC_03" />
+		    <class name="sfdc.testcases.SFDC_TC_04" /> 
+			<class name="sfdc.testcases.SFDC_TC_05" /> 
+			<class name="sfdc.testcases.SFDC_TC_06" /> 
+			<class name="sfdc.testcases.SFDC_TC_07" /> 
+			<class name="sfdc.testcases.SFDC_TC_08" /> 
+			<class name="sfdc.testcases.SFDC_TC_09" /> 
+			<class name="sfdc.testcases.SFDC_TC_10" />
+
+		</classes>
+	</test>   <!-- Test -->
+</suite>

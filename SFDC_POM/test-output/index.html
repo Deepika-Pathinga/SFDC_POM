@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite">
+              <span class="suite-name border-passed">SFDC-Chrome Testing suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SFDC_Chrome_Testing_suite">
+                    <span>C:\Users\deepi\eclipse-workspace\SFDC_POM\SFDC_Chrome.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SFDC_Chrome_Testing_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SFDC_Chrome_Testing_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SFDC_Chrome_Testing_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SFDC_Chrome_Testing_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SFDC_Chrome_Testing_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SFDC_Chrome_Testing_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SFDC_Chrome_Testing_suite" class="hide-methods passed suite-SFDC_Chrome_Testing_suite"> (hide)</a> <!-- hide-methods passed suite-SFDC_Chrome_Testing_suite -->
+                      <a href="#" panel-name="suite-SFDC_Chrome_Testing_suite" class="show-methods passed suite-SFDC_Chrome_Testing_suite"> (show)</a> <!-- show-methods passed suite-SFDC_Chrome_Testing_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SFDC_Chrome_Testing_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.reusable_code.Select_Browser" hash-for-method="BrowserName(chrome)">BrowserName(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_01" hash-for-method="TC_01_LoginErrorMessage(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_01_LoginErrorMessage(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_02" hash-for-method="TC_02_LoginToSalesForce(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_02_LoginToSalesForce(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_03" hash-for-method="TC_03_CheckRememberMe(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_03_CheckRememberMe(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_04" hash-for-method="TC_04_A_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_04_A_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_05" hash-for-method="TC_04_B_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_04_B_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_06" hash-for-method="TC_05_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_05_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_07" hash-for-method="TC_08_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_08_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_08" hash-for-method="TC_09_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_09_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_09" hash-for-method="TC_17_Pipeline(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_17_Pipeline(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFDC_Chrome_Testing_suite" title="sfdc.testcases.SFDC_TC_10" hash-for-method="TC_18_Stuck(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">TC_18_Stuck(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SFDC_Chrome_Testing_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SFDC_Chrome_Testing_suite" class="panel SFDC_Chrome_Testing_suite">
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_06</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_05_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_05_UserMenu</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_07</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_08_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_08_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_08_UserMenu</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_CheckRememberMe(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_03_CheckRememberMe(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_03_CheckRememberMe</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_LoginErrorMessage(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_01_LoginErrorMessage(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_01_LoginErrorMessage</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_B_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_04_B_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_04_B_ForgotPassword</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.reusable_code.Select_Browser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserName(chrome)">
+                  </a> <!-- BrowserName(chrome) -->
+                  <span class="method-name">BrowserName</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_18_Stuck(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_18_Stuck(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_18_Stuck</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_09</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_17_Pipeline(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_17_Pipeline(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_17_Pipeline</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_LoginToSalesForce(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_02_LoginToSalesForce(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_02_LoginToSalesForce</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_08</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_09_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_09_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_09_UserMenu</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+          <div class="suite-SFDC_Chrome_Testing_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sfdc.testcases.SFDC_TC_04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_A_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)">
+                  </a> <!-- TC_04_A_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020) -->
+                  <span class="method-name">TC_04_A_ForgotPassword</span>
+                  <span class="parameters">(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFDC_Chrome_Testing_suite-class-passed -->
+        </div> <!-- panel SFDC_Chrome_Testing_suite -->
+        <div panel-name="test-xml-SFDC_Chrome_Testing_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\deepi\eclipse-workspace\SFDC_POM\SFDC_Chrome.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SFDC-Chrome Testing suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SFDC-Chrome test&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_Test_Base&quot;/&gt;
+      &lt;class name=&quot;sfdc.reusable_code.Select_Browser&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_01&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_02&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_03&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_04&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_05&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_06&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_07&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_08&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_09&quot;/&gt;
+      &lt;class name=&quot;sfdc.testcases.SFDC_TC_10&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SFDC-Chrome test --&gt;
+&lt;/suite&gt; &lt;!-- SFDC-Chrome Testing suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SFDC_Chrome_Testing_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SFDC-Chrome Testing suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SFDC-Chrome test (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SFDC_Chrome_Testing_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SFDC-Chrome Testing suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SFDC_Chrome_Testing_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SFDC-Chrome Testing suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SFDC_Chrome_Testing_suite');
+function tableData_SFDC_Chrome_Testing_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_17_Pipeline')
+data.setCell(0, 2, 'sfdc.testcases.SFDC_TC_09')
+data.setCell(0, 3, 66708);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_18_Stuck')
+data.setCell(1, 2, 'sfdc.testcases.SFDC_TC_10')
+data.setCell(1, 3, 42335);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_08_UserMenu')
+data.setCell(2, 2, 'sfdc.testcases.SFDC_TC_07')
+data.setCell(2, 3, 31125);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_02_LoginToSalesForce')
+data.setCell(3, 2, 'sfdc.testcases.SFDC_TC_02')
+data.setCell(3, 3, 22251);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_03_CheckRememberMe')
+data.setCell(4, 2, 'sfdc.testcases.SFDC_TC_03')
+data.setCell(4, 3, 21305);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_09_UserMenu')
+data.setCell(5, 2, 'sfdc.testcases.SFDC_TC_08')
+data.setCell(5, 3, 18149);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_05_UserMenu')
+data.setCell(6, 2, 'sfdc.testcases.SFDC_TC_06')
+data.setCell(6, 3, 16866);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_04_B_ForgotPassword')
+data.setCell(7, 2, 'sfdc.testcases.SFDC_TC_05')
+data.setCell(7, 3, 10022);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_04_A_ForgotPassword')
+data.setCell(8, 2, 'sfdc.testcases.SFDC_TC_04')
+data.setCell(8, 3, 8565);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_01_LoginErrorMessage')
+data.setCell(9, 2, 'sfdc.testcases.SFDC_TC_01')
+data.setCell(9, 3, 7695);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'BrowserName')
+data.setCell(10, 2, 'sfdc.reusable_code.Select_Browser')
+data.setCell(10, 3, 110);
+window.suiteTableData['SFDC_Chrome_Testing_suite']= { tableData: data, tableDiv: 'times-div-SFDC_Chrome_Testing_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-SFDC_Chrome_Testing_suite">
+              </div> <!-- times-div-SFDC_Chrome_Testing_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SFDC_Chrome_Testing_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SFDC-Chrome Testing suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SFDC_Chrome_Testing_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">22 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_06</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_07</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_03</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.reusable_code.Select_Browser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_01</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_05</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_09</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_10</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_04</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">sfdc.testcases.SFDC_TC_08</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">callCloseReport</span>
+                <br/>
+                <span class="ignored-method-name">callCreateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SFDC_Chrome_Testing_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_Test_Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">callCreateReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.reusable_code.Select_Browser</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BrowserName(chrome)</span>
+                <span class="method-start">7888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">8009 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">8874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_LoginErrorMessage(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">14535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">22235 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">23243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_02_LoginToSalesForce(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">28892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">51148 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_03</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">52275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_03_CheckRememberMe(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">57879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">79187 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_04</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">80203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_04_A_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">85839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">94407 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_05</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">95458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_04_B_ForgotPassword(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">101126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">111151 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_06</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">112425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_05_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">118679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">135548 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_07</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">136659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_08_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">142239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">173390 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_08</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">174556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_09_UserMenu(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">180146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">198298 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_09</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">199286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_17_Pipeline(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">205182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">271892 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_TC_10</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">callInitialzeDriver(chrome)</span>
+                <span class="method-start">272952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_18_Stuck(https://login.salesforce.com, deepika@tekarch.com, tekarch2020)</span>
+                <span class="method-start">278799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">callCloseBrowser</span>
+                <span class="method-start">321136 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sfdc.testcases.SFDC_Test_Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">callCloseReport</span>
+                <span class="method-start">322242 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

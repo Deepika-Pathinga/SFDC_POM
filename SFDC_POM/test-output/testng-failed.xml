@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SFDC-Chrome Testing suite]">
+  <test thread-count="5" name="SFDC-Chrome test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="sfdc.testcases.SFDC_TC_03">
+        <methods>
+          <include name="callInitialzeDriver"/>
+          <include name="callCloseReport"/>
+          <include name="callCloseBrowser"/>
+          <include name="TC_03_CheckRememberMe" invocation-numbers="0"/>
+          <include name="callCreateReport"/>
+        </methods>
+      </class> <!-- sfdc.testcases.SFDC_TC_03 -->
+    </classes>
+  </test> <!-- SFDC-Chrome test(failed) -->
+</suite> <!-- Failed suite [SFDC-Chrome Testing suite] -->

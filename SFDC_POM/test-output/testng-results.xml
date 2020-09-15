@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="22" total="33" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SFDC-Chrome Testing suite" duration-ms="322753" started-at="2020-04-14T23:02:24 PDT" finished-at="2020-04-14T23:07:47 PDT">
+    <groups>
+    </groups>
+    <test name="SFDC-Chrome test" duration-ms="322753" started-at="2020-04-14T23:02:24 PDT" finished-at="2020-04-14T23:07:47 PDT">
+      <class name="sfdc.reusable_code.Select_Browser">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.reusable_code.Select_Browser@76707e36]" name="callInitialzeDriver" is-config="true" duration-ms="7567" started-at="2020-04-14T23:02:24 PDT" finished-at="2020-04-14T23:02:32 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="BrowserName(java.lang.String)[pri:0, instance:sfdc.reusable_code.Select_Browser@76707e36]" name="BrowserName" duration-ms="110" started-at="2020-04-14T23:02:32 PDT" finished-at="2020-04-14T23:02:32 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserName -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.reusable_code.Select_Browser@76707e36]" name="callCloseBrowser" is-config="true" duration-ms="846" started-at="2020-04-14T23:02:32 PDT" finished-at="2020-04-14T23:02:33 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.reusable_code.Select_Browser -->
+      <class name="sfdc.testcases.SFDC_Test_Base">
+        <test-method status="PASS" signature="callCreateReport()[pri:0, instance:sfdc.testcases.SFDC_Test_Base@1e6d1014]" name="callCreateReport" is-config="true" duration-ms="260" started-at="2020-04-14T23:02:24 PDT" finished-at="2020-04-14T23:02:24 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCreateReport -->
+        <test-method status="PASS" signature="callCloseReport()[pri:0, instance:sfdc.testcases.SFDC_Test_Base@1e6d1014]" name="callCloseReport" is-config="true" duration-ms="493" started-at="2020-04-14T23:07:46 PDT" finished-at="2020-04-14T23:07:47 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseReport -->
+      </class> <!-- sfdc.testcases.SFDC_Test_Base -->
+      <class name="sfdc.testcases.SFDC_TC_10">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_10@7f13d6e]" name="callInitialzeDriver" is-config="true" duration-ms="5846" started-at="2020-04-14T23:06:57 PDT" finished-at="2020-04-14T23:07:03 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_18_Stuck(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_10@7f13d6e]" name="TC_18_Stuck" duration-ms="42335" started-at="2020-04-14T23:07:03 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:07:45 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18_Stuck -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_10@7f13d6e]" name="callCloseBrowser" is-config="true" duration-ms="1105" started-at="2020-04-14T23:07:45 PDT" finished-at="2020-04-14T23:07:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_10 -->
+      <class name="sfdc.testcases.SFDC_TC_03">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_03@694e1548]" name="callInitialzeDriver" is-config="true" duration-ms="5604" started-at="2020-04-14T23:03:16 PDT" finished-at="2020-04-14T23:03:22 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_03_CheckRememberMe(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_03@694e1548]" name="TC_03_CheckRememberMe" duration-ms="21305" started-at="2020-04-14T23:03:22 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:03:43 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_CheckRememberMe -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_03@694e1548]" name="callCloseBrowser" is-config="true" duration-ms="1013" started-at="2020-04-14T23:03:43 PDT" finished-at="2020-04-14T23:03:44 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_03 -->
+      <class name="sfdc.testcases.SFDC_TC_02">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_02@1f554b06]" name="callInitialzeDriver" is-config="true" duration-ms="5649" started-at="2020-04-14T23:02:47 PDT" finished-at="2020-04-14T23:02:53 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_02_LoginToSalesForce(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_02@1f554b06]" name="TC_02_LoginToSalesForce" duration-ms="22251" started-at="2020-04-14T23:02:53 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:03:15 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_LoginToSalesForce -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_02@1f554b06]" name="callCloseBrowser" is-config="true" duration-ms="1124" started-at="2020-04-14T23:03:15 PDT" finished-at="2020-04-14T23:03:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_02 -->
+      <class name="sfdc.testcases.SFDC_TC_01">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_01@614ddd49]" name="callInitialzeDriver" is-config="true" duration-ms="5661" started-at="2020-04-14T23:02:33 PDT" finished-at="2020-04-14T23:02:39 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_01_LoginErrorMessage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_01@614ddd49]" name="TC_01_LoginErrorMessage" duration-ms="7695" started-at="2020-04-14T23:02:39 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:02:46 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginErrorMessage -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_01@614ddd49]" name="callCloseBrowser" is-config="true" duration-ms="1006" started-at="2020-04-14T23:02:46 PDT" finished-at="2020-04-14T23:02:47 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_01 -->
+      <class name="sfdc.testcases.SFDC_TC_07">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_07@3fd7a715]" name="callInitialzeDriver" is-config="true" duration-ms="5580" started-at="2020-04-14T23:04:41 PDT" finished-at="2020-04-14T23:04:46 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_08_UserMenu(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_07@3fd7a715]" name="TC_08_UserMenu" duration-ms="31125" started-at="2020-04-14T23:04:46 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:05:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_UserMenu -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_07@3fd7a715]" name="callCloseBrowser" is-config="true" duration-ms="1164" started-at="2020-04-14T23:05:17 PDT" finished-at="2020-04-14T23:05:19 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_07 -->
+      <class name="sfdc.testcases.SFDC_TC_06">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_06@26aa12dd]" name="callInitialzeDriver" is-config="true" duration-ms="6254" started-at="2020-04-14T23:04:17 PDT" finished-at="2020-04-14T23:04:23 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_05_UserMenu(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_06@26aa12dd]" name="TC_05_UserMenu" duration-ms="16866" started-at="2020-04-14T23:04:23 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:04:40 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_UserMenu -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_06@26aa12dd]" name="callCloseBrowser" is-config="true" duration-ms="1110" started-at="2020-04-14T23:04:40 PDT" finished-at="2020-04-14T23:04:41 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_06 -->
+      <class name="sfdc.testcases.SFDC_TC_05">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_05@131276c2]" name="callInitialzeDriver" is-config="true" duration-ms="5668" started-at="2020-04-14T23:04:00 PDT" finished-at="2020-04-14T23:04:05 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_04_B_ForgotPassword(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_05@131276c2]" name="TC_04_B_ForgotPassword" duration-ms="10022" started-at="2020-04-14T23:04:05 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:04:15 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_B_ForgotPassword -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_05@131276c2]" name="callCloseBrowser" is-config="true" duration-ms="1273" started-at="2020-04-14T23:04:15 PDT" finished-at="2020-04-14T23:04:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_05 -->
+      <class name="sfdc.testcases.SFDC_TC_04">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_04@1c3a4799]" name="callInitialzeDriver" is-config="true" duration-ms="5636" started-at="2020-04-14T23:03:44 PDT" finished-at="2020-04-14T23:03:50 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_04_A_ForgotPassword(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_04@1c3a4799]" name="TC_04_A_ForgotPassword" duration-ms="8565" started-at="2020-04-14T23:03:50 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:03:58 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_A_ForgotPassword -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_04@1c3a4799]" name="callCloseBrowser" is-config="true" duration-ms="1049" started-at="2020-04-14T23:03:58 PDT" finished-at="2020-04-14T23:04:00 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_04 -->
+      <class name="sfdc.testcases.SFDC_TC_09">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_09@71bbf57e]" name="callInitialzeDriver" is-config="true" duration-ms="5896" started-at="2020-04-14T23:05:43 PDT" finished-at="2020-04-14T23:05:49 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_17_Pipeline(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_09@71bbf57e]" name="TC_17_Pipeline" duration-ms="66708" started-at="2020-04-14T23:05:49 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:06:56 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_17_Pipeline -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_09@71bbf57e]" name="callCloseBrowser" is-config="true" duration-ms="1057" started-at="2020-04-14T23:06:56 PDT" finished-at="2020-04-14T23:06:57 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_09 -->
+      <class name="sfdc.testcases.SFDC_TC_08">
+        <test-method status="PASS" signature="callInitialzeDriver(java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_08@711f39f9]" name="callInitialzeDriver" is-config="true" duration-ms="5589" started-at="2020-04-14T23:05:19 PDT" finished-at="2020-04-14T23:05:24 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callInitialzeDriver -->
+        <test-method status="PASS" signature="TC_09_UserMenu(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sfdc.testcases.SFDC_TC_08@711f39f9]" name="TC_09_UserMenu" duration-ms="18149" started-at="2020-04-14T23:05:24 PDT" data-provider="data-provider-url,username,password" finished-at="2020-04-14T23:05:42 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepika@tekarch.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tekarch2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_UserMenu -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:sfdc.testcases.SFDC_TC_08@711f39f9]" name="callCloseBrowser" is-config="true" duration-ms="986" started-at="2020-04-14T23:05:42 PDT" finished-at="2020-04-14T23:05:43 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- sfdc.testcases.SFDC_TC_08 -->
+    </test> <!-- SFDC-Chrome test -->
+  </suite> <!-- SFDC-Chrome Testing suite -->
+</testng-results>
